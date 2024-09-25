@@ -1,0 +1,36 @@
+* freduse.pkg
+v 3
+d 'FREDUSE': module to Import FRED (Federal Reserve Economic Database) data
+d
+d  The FRED repository at https://research.stlouisfed.org/fred2/
+d contains over 3,000 U.S.  economic time series.  Each time series
+d is stored in a separate file that also contains a string-date
+d variable and header with information about the series.  freduse
+d imports a list of series into a single Stata dataset.
+d
+d KW: data management
+d KW: macro data
+d KW: economic data
+d KW: FRED
+d
+d Requires: Stata version 9.1
+d
+d Distribution-Date: 20240925
+d
+d Original Author: David M. Drukker, StataCorp LP
+d Email: ddrukker@@stata.com
+d
+d Update Author: John Coglianese, Federal Reserve Board
+d Email: john.m.coglianese@frb.gov
+d
+d Update Author: Jacob Williams, Federal Reserve Board
+d Email: jacob.m.williams@frb.gov
+d
+d
+f freduse/freduse.ado
+f freduse/freduse.hlp
+f freduse/_freduse.ado
+f freduse/_freduse2.ado
+f freduse/_fredweb.ado
+f freduse/lfreduse.mlib
+e
